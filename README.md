@@ -13,3 +13,5 @@ Didn't even have to make them compete or do advanced benchmarking:
 BitBlt & GetDIBits run at about 60-75 captures per second on my machine, whereas it took about a minute for GetPixels to get 68x68 pixels.
 
 So, the answer: absolutely not.
+
+Also, even if it worked, you'd have to deal with the frame refreshing mid capture.
