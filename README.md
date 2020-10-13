@@ -10,7 +10,7 @@ So I thought, "Hey, maybe it could be more performant than using BitBlt and GetD
 
 I have coded a C++ class that can do both.
 Didn't even have to make them compete or do advanced benchmarking:
-BitBlt & GetDIBits run at about 60-75 captures per second on my machine, whereas it took about a minute for GetPixels to get 68x68 pixels.
+BitBlt & GetDIBits run at about 60-75 captures per second (1920x1080 pixels) on my machine, whereas it took about a minute for GetPixels to get 68x68 pixels.
 
 So, the answer: absolutely not.
 
